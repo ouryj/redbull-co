@@ -1,0 +1,26 @@
+img{
+    height: 200px; width: 200px;
+}
+div{
+    display:inline-block;
+    animation: fade 5s inherit;
+}
+@keyframes fade{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    75% {
+        background-color: green;
+    }
+    100%{
+        background-color: black;
+    }
+}
+/*.row1{
+    display: block;
+}*/
+
+/*# sourceMappingURL=main.css.map */
